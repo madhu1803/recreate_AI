@@ -8,11 +8,13 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* navbar */
 .navbar-nav .nav-link {
   color: #44b2f8 !important;
   font-weight: 500 !important;
 }
 
+/* btns */
 .btn-blue {
   background-color: #44b2f8;
   color: white;
@@ -28,7 +30,15 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+.btn-blue-outline:hover {
+  border: 1px solid #44b2f8 !important;
+  border-radius: 30px;
+  color: #44b2f8;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
+/* grid */
 .row .col-lg-6.grid-spacing {
   margin-top: 50px;
   margin-bottom: 50px;
