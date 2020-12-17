@@ -14,6 +14,16 @@ body {
   font-weight: 500 !important;
 }
 
+@media (min-width: 1024px) {
+  .navbar-nav .nav-link {
+    color: #44b2f8 !important;
+    font-weight: 500 !important;
+    /* border-right: 2px solid #44b2f8; */
+    margin-left: 7px !important;
+    margin-right: 7px !important;
+  }
+}
+
 /* btns */
 .btn-blue {
   background-color: #44b2f8;
